@@ -26,3 +26,6 @@ export CLICOLOR=1
 # export LSCOLORS=exfxcxdxbxegedabagacad # default
 # export LSCOLORS=dxfxcxexbxegedabagacad # black
 export LSCOLORS=Exfxcxdxbxegedabagacad # engineyard-white
+
+# vcprompt settings
+export VCPROMPT_FORMAT="[%s:%b]"

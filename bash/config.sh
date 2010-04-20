@@ -19,8 +19,18 @@ YELLOW="\[\033[1;33m\]"
 light_gray="\[\033[0;37m\]"
 white="\[\033[1;37m\]"
 NC="\[\e[0m\]" # No Color
+# background colors
+BBLACK='\[\e[40m\]'
+BRED='\[\e[41m\]'
+BGREEN='\[\e[42m\]'
+BYELLOW='\[\e[43m\]'
+BBLUE='\[\e[44m\]'
+BMAGENTA='\[\e[45m\]'
+BCYAN='\[\e[46m\]'
+BWHITE='\[\e[47m\]'
 
-PS1=$PS1"$BLACK\u@\h:\w \$(vcprompt)\$ $NC"
+
+PS1=$PS1"$RED\u@\h$BLACK:$BLUE\w $white$BYELLOW\$(vcprompt)$NC\$ "
 
 
 # # Colors from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
