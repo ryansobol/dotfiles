@@ -30,7 +30,7 @@ BCYAN='\[\e[46m\]'
 BWHITE='\[\e[47m\]'
 
 
-PS1=$PS1"$RED\u@\h$BLACK:$BLUE\w $white$BYELLOW\$(vcprompt)$NC\$ "
+PS1=$PS1"$RED\u@\h$BLACK:$BLUE\W $white$BYELLOW\$(vcprompt)$NC\$ "
 
 
 # # Colors from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
