@@ -1,3 +1,8 @@
+### General prompt settings
+
+# vcprompt settings
+export VCPROMPT_FORMAT="[%b]"
+
 # places prompt data in the window title
 # e.g. jsobol@swifty.local ~/Desktop
 PS1="\[\e]2;\u@\H \w\a\]" 

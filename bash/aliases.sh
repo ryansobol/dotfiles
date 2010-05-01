@@ -1,5 +1,12 @@
+### General aliases
+
 # reload all bash scripts
 alias reload=". ~/.bashrc"
+
+# allows my bash aliases to work through sudo
+# Bash Info Manual: If the last character of the alias value is a space or tab character,
+# then the next command word following the alias is also checked for alias expansion.
+alias sudo="sudo "
 
 # ls aliases
 alias ll='ls -hal'
@@ -11,21 +18,9 @@ alias ~='cd ~'
 alias ..='cd ..'
 alias cdd='cd -'
 
-alias cdgems='cd /opt/local/lib/ruby/gems/1.8/gems/'
-alias cdgems1.9='cd /opt/local/lib/ruby1.9/gems/1.9.1/gems/'
-
-# resources aliases
-alias free='free -m'
+# disk usage aliases
 alias dus='du -Pschx'
 
 # tar aliases
 alias guntar='tar -xzvlf'
 alias gtar='tar -zcvf'
-
-# MySQL via MacPorts
-# Usage == mysql.server help
-alias mysql.server='/opt/local/share/mysql5/mysql/mysql.server'
-
-# top aliases
-alias tu="top -o cpu"   # cpu
-alias tm="top -o vsize" # memory
