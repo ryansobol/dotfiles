@@ -28,7 +28,7 @@ export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad # engineyard-white
 
 # vcprompt settings
-export VCPROMPT_FORMAT="[%s:%b]"
+export VCPROMPT_FORMAT="[%b]"
 
 # bash auto-completion
 if [ -f /opt/local/etc/bash_completion ]; then
