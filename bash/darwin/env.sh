@@ -19,3 +19,8 @@ export MANPATH=/opt/local/man:$MANPATH
 if [ -f /opt/local/etc/bash_completion ]; then
   source /opt/local/etc/bash_completion
 fi
+
+## RVM
+
+# must invoke after all $PATH loads
+if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
