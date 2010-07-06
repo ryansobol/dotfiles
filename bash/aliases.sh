@@ -1,7 +1,7 @@
 ### General aliases
 
 # reload all bash scripts
-alias reload=". ~/.bashrc"
+alias reload="source ~/.bashrc"
 
 # allows my bash aliases to work through sudo
 # Bash Info Manual: If the last character of the alias value is a space or tab character,
