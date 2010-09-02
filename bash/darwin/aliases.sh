@@ -6,6 +6,6 @@ alias tm="top -o vsize" # memory
 
 ## MacPorts
 
-# mysql aliases
+# MySQL aliases
 # Usage: myd help
 alias mys='/opt/local/share/mysql5/mysql/mysql.server'
