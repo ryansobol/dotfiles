@@ -9,3 +9,6 @@ alias tm="top -o vsize" # memory
 # MySQL aliases
 # Usage: myd help
 alias mys='/opt/local/share/mysql5/mysql/mysql.server'
+
+# Apache aliases
+alias apache2ctl='/opt/local/apache2/bin/apachectl'
