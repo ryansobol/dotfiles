@@ -11,9 +11,12 @@ export LSCOLORS=Exfxcxdxbxegedabagacad # white
 
 ## MacPorts
 
-# prepend macport tools to the $PATH and $MANPATH
+# prepend MacPorts tools to the $PATH and $MANPATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/man:$MANPATH
+
+# append PostgreSQL tools to the $PATH
+export PATH=$PATH:/opt/local/lib/postgresql84/bin
 
 # bash auto-completion
 if [ -f /opt/local/etc/bash_completion ]; then
