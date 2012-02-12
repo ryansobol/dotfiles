@@ -25,5 +25,5 @@ fi
 
 ## RVM
 
-# must invoke after all $PATH loads
-if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
+# load RVM function... must invoke after all $PATH loads
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
