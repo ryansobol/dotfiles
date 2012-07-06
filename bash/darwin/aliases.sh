@@ -20,3 +20,7 @@ alias pgs="/opt/local/etc/LaunchDaemons/org.macports.postgresql84-server/postgre
 # Redis aliases
 # Usage: rds [start|stop|restart]
 alias rds="/opt/local/etc/LaunchDaemons/org.macports.redis/redis.wrapper"
+
+# git aliases
+# https://github.com/defunkt/hub
+eval "$(hub alias -s)"
