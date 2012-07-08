@@ -24,3 +24,6 @@ alias rds="/opt/local/etc/LaunchDaemons/org.macports.redis/redis.wrapper"
 # git aliases
 # https://github.com/defunkt/hub
 eval "$(hub alias -s)"
+
+# Ack aliases
+alias ack="/opt/local/bin/ack-5.12"
