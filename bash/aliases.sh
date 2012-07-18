@@ -20,7 +20,3 @@ alias cdd='cd -'
 
 # disk usage aliases
 alias dus='du -Pschx'
-
-# tar aliases
-alias guntar='tar -xzvlf'
-alias gtar='tar -zcvf'
