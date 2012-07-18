@@ -15,8 +15,8 @@ export LSCOLORS=Exfxcxdxbxegedabagacad # white
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/man:$MANPATH
 
-# append PostgreSQL tools to the $PATH
-export PATH=$PATH:/opt/local/lib/postgresql84/bin
+# prepend PostgreSQL tools to the $PATH
+export PATH=/opt/local/lib/postgresql91/bin:$PATH
 
 # bash auto-completion
 if [ -f /opt/local/etc/bash_completion ]; then

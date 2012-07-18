@@ -15,7 +15,8 @@ alias mys="/opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper"
 
 # PostgreSQL aliases
 # Usage: pgs [start|stop|restart]
-alias pgs="/opt/local/etc/LaunchDaemons/org.macports.postgresql84-server/postgresql84-server.wrapper"
+alias pgs84="/opt/local/etc/LaunchDaemons/org.macports.postgresql84-server/postgresql84-server.wrapper"
+alias pgs91="/opt/local/etc/LaunchDaemons/org.macports.postgresql91-server/postgresql91-server.wrapper"
 
 # Redis aliases
 # Usage: rds [start|stop|restart]
