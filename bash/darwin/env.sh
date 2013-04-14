@@ -9,6 +9,11 @@ export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad # white
 # export LSCOLORS=dxfxcxexbxegedabagacad # black
 
+## Heroku Toolbelt
+
+# prepend Heroku tools to the $PATH
+export PATH=/usr/local/heroku/bin:$PATH
+
 ## MacPorts
 
 # prepend MacPorts tools to the $PATH and $MANPATH
