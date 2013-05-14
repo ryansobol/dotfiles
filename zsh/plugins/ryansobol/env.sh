@@ -4,7 +4,7 @@
 export EDITOR="/usr/bin/mate -w"
 
 # append custom tools to the $PATH
-export PATH=$PATH:~/bin
+export PATH=$PATH:$HOME/.bin
 
 ## Heroku Toolbelt
 
