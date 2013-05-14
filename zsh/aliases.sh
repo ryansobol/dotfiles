@@ -25,9 +25,6 @@ alias dus='du -Pschx'
 alias tu="top -o cpu"   # cpu
 alias tm="top -o vsize" # memory
 
-# copy aliases
-alias cpwd="pwd | pbcopy"
-
 ## MacPorts
 
 # MySQL aliases
