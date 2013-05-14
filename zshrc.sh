@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_CUSTOM=$HOME/bin/dotfiles/zsh
+ZSH_CUSTOM=$HOME/.dotfiles/zsh
 ZSH_THEME="ryansobol"
 
 plugins=(copydir copyfile extract gem gitfast git-extras heroku macports osx rvm ryansobol)
