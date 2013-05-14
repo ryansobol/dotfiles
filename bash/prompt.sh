@@ -37,7 +37,7 @@ BWHITE='\[\e[47m\]'
 function om {
   echo -e "\xE0\xA5\x90"
 }
-PS1=$PS1"$RED\u@\h$white:$BLUE\W$YELLOW\$(vcprompt)$white \$(om)$NC "
+PS1=$PS1"$BLUE\W$YELLOW\$(vcprompt)$white \$(om)$NC "
 
 # # Colors from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
 # # misc
