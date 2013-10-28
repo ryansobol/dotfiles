@@ -1,7 +1,7 @@
 ## Homebrew
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-## Custom
+## HOME
 export PATH=$HOME/.bin:$PATH
 export EDITOR="subl -w"
 
