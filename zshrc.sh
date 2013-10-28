@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.dotfiles/zsh
 ZSH_THEME="ryansobol"
 
-plugins=(copydir copyfile extract gem gitfast git-extras heroku macports osx rvm ryansobol)
+plugins=(brew copydir copyfile extract gem gitfast git-extras heroku osx ryansobol)
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
