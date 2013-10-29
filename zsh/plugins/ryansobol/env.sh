@@ -5,5 +5,6 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$HOME/.bin:$PATH
 export EDITOR="subl -w"
 
-## rbenv
-eval "$(rbenv init -)"
+## chruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
