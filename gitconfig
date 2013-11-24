@@ -38,6 +38,6 @@
 [core]
 	excludesfile = ~/.gitexcludes
 [push]
-	default = current
+	default = simple
 [credential]
 	helper = osxkeychain
