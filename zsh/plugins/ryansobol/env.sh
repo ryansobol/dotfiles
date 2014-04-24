@@ -6,7 +6,8 @@ export PATH=$HOME/.bin:$PATH
 
 # Atom.io
 export EDITOR="atom -w"
-export ATOM_REPOS_HOME=~/Projects/2014/ryansobol
+export PROJECTS=~/Projects/2014/ryansobol
+export ATOM_REPOS_HOME=$PROJECTS
 
 ## postgres
 export PGDATA=/usr/local/var/postgres
