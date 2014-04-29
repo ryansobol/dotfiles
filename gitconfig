@@ -10,15 +10,16 @@
 	br = branch
 	df = diff HEAD
 	dt = difftool HEAD
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	up = !git fetch origin && git rebase origin/master
-	ir = !git rebase --interactive origin/master
+	ll = log --pretty=format:'%Cred%h %>(11,trunc)%Cgreen%cr %<(10,trunc)%Cblue%cn%C(yellow)%d %Creset%s'
+	lp = log --patch --stat --pretty=format:'%C(bold red)%h %Cgreen%cr %Cblue%cn%C(yellow)%d %Creset%s'
+	up = !sh -c 'git fetch origin ${1-master} && git rebase origin/${1-master}' -
+	ir = !sh -c 'git rebase --interactive origin/${1-master}' -
 	dfc = diff HEAD --cached
 	rmb = !sh -c 'git branch -D $1 && git push origin :$1' -
 	ign = ls-files --others --ignored --exclude-standard
+	unc = reset HEAD^
 	who = shortlog --numbered --summary --no-merges
-	done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1} && git push
-	unadd = reset HEAD
+	done = !sh -c 'git fetch origin ${1-master} && git rebase origin/${1-master} && git checkout ${1-master} && git merge @{-1} && git push origin ${1-master}' -
 	cleanup = !git remote prune origin && git gc && git stash clear
 [color]
 	ui = auto
