@@ -8,9 +8,6 @@ alias ll='ls -hal'
 alias la='ls -A'
 alias l='ls -CF'
 
-# cd
-alias ~='cd ~'
-
 # du
 alias dus='du -Pschx'
 
