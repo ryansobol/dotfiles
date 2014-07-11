@@ -1,12 +1,10 @@
 ## Homebrew
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
-## HOME
-export PATH=$HOME/.bin:$PATH
+typeset -U path
+path=(/usr/local/bin $path)
 
 # Atom.io
 export EDITOR="atom -w -d"
-export PROJECTS=~/Projects/2014/ryansobol
+export PROJECTS=$HOME/Projects/2014/ryansobol
 export ATOM_REPOS_HOME=$PROJECTS
 
 ## postgres
