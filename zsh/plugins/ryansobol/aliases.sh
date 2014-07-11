@@ -2,9 +2,9 @@
 alias reload='source ~/.zshrc'
 
 # ls
-alias ll='ls -hal'
-alias la='ls -A'
 alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -hal'
 
 # du
 alias dus='du -Pschx'
