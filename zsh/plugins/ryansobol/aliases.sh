@@ -1,5 +1,3 @@
-### General
-
 # source
 alias reload='source ~/.zshrc'
 
@@ -10,14 +8,3 @@ alias l='ls -CF'
 
 # du
 alias dus='du -Pschx'
-
-### Darwin
-
-# top
-alias tcpu='top -o cpu'
-alias tmem='top -o vsize'
-
-### Apps
-
-# Sublime Text
-alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
