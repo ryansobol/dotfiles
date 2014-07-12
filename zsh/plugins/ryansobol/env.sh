@@ -1,7 +1,3 @@
-## Homebrew
-typeset -U path
-path=(/usr/local/bin $path)
-
 # Atom
 export EDITOR="atom -w -d"
 export PROJECTS=$HOME/Projects/2014/ryansobol
