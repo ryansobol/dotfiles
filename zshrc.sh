@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$HOME/.dotfiles/zsh
 ZSH_THEME=ryansobol
 
-plugins=(brew gitfast ryansobol ryansobol-osx sublime)
+plugins=(brew gitfast ryansobol ryansobol-osx)
 
 # Set a history timestamp format
 HIST_STAMPS=yyyy-mm-dd
